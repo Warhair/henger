@@ -1,20 +1,30 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package hengerprogram;
 
-/**
- *
- * @author TegzesMárton(SZF_202
- */
+import java.awt.List;
+
 public class HengerProgram {
 
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void main(String[] args) {
-        // TODO code application logic here
+        new HengerProgram();
+    }
+    public void HengerProgram(){
+        
+    }
+    public double atlagTerfogat(){
+        double atlagTerfogat = 0;
+        return atlagTerfogat;
+    }
+    public double csovekSulya(){
+        double csovekSulya = 0;
+        return csovekSulya;
+    }
+    private List Lista(){
+        return null;
+    }
+    public  void run(){
+        
     }
     
 }
