@@ -1,4 +1,4 @@
-# henger
-#Tegzes Márton
+# Henger program
+## Tegzes Márton
 
  
