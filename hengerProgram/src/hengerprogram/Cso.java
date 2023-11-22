@@ -11,8 +11,8 @@ package hengerprogram;
 public class Cso  extends TomorHenger{
     private double falvastagsag;
 
-    public Cso(double falvastagsag, double sugar, double magassag) {
-        super(sugar, magassag);
+    public Cso(double sugar, double magassag, double falvastagsag) {
+        this(sugar, magassag, 1, falvastagsag);
         this.falvastagsag = falvastagsag;
     }
 
