@@ -24,13 +24,19 @@ public class TomorHenger extends Henger{
         return fajsuly;
     }
     public double suly(){
-       double suly = 0;
+       double suly = fajsuly * terfogat();
        return suly;
     }
 
     @Override
+    public double terfogat() {
+        return super.terfogat();
+    }
+    
+
+    @Override
     public String toString() {
-        return "TomorHenger{" + "fajsuly=" + fajsuly + '}';
+        return "Cso{" + "falsuly=" + getFajsuly() + "sugar=" + getSugar() + "magassag=" + getMagassag() + "terfogat=" + terfogat() + "suly=" + suly()+'}';
     }
     
  

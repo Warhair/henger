@@ -10,6 +10,9 @@ public class Henger {
         this.sugar = sugar;
         this.magassag = magassag;
     }
+    public Henger(int hengerDarab){
+        this.hengerDarab = hengerDarab;
+    }
 
     public static int getHengerDarab() {
         return hengerDarab;
@@ -23,13 +26,13 @@ public class Henger {
         return magassag;
     }
      public double terfogat(){
-       double terfogat = 0;
-       return terfogat;
+        double terfogat = Math.pow(sugar, 2)*Math.PI*magassag;
+        return terfogat;
     }
 
     @Override
     public String toString() {
-        return "Henger{" + "sugar=" + sugar + ", magassag=" + magassag + '}';
+        return "Henger{" + "sugar=" + getSugar() + ", magassag=" + getMagassag() + "terfogat=" +  terfogat() + '}';
     }
      
 }

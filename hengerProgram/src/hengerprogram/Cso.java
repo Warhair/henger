@@ -26,13 +26,21 @@ public class Cso  extends TomorHenger{
     }
      @Override
      public double terfogat(){
-         double terfogat = 0;
+          double terfogatN = Math.pow(getSugar(), 2)*Math.PI*getMagassag();
+          double terfogatK = Math.pow((getSugar()-falvastagsag), 2)*Math.PI*getMagassag();
+         double terfogat = terfogatN-terfogatK;
          return terfogat;
      }
 
     @Override
+    public double suly() {
+        return super.suly();
+    }
+     
+
+    @Override
     public String toString() {
-        return "Cso{" + "falvastagsag=" + falvastagsag + '}';
+        return "Cso{" + "falvastagsag=" + falvastagsag + "falsuly=" + getFajsuly() + "sugar=" + getSugar() + "magassag=" + getMagassag() + "terfogat=" + terfogat() + "suly=" + suly()+'}';
     }
      
 }

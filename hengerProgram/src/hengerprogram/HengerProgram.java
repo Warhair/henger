@@ -10,7 +10,7 @@ public class HengerProgram {
         new HengerProgram();
     }
     public void HengerProgram(){
-        
+        List Henger = new Henger(4);
     }
     public double atlagTerfogat(){
         double atlagTerfogat = 0;
